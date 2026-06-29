@@ -1,15 +1,18 @@
-# GOONS Design Recovered Site
+# Dong Peixin Personal Website
 
-This is a maintainable recovery of the deployed homepage at https://goonsdesign.com/.
+Personal website for Dong Peixin, rebuilt from the recovered GOONS Design production site and adapted into a public portfolio/personal homepage.
 
-## Run
+## Live Site
+
+- Vercel: https://dong-peixin-personal-site.vercel.app
+- GitHub: https://github.com/pxdong92/dong-peixin-personal-site
+
+## Local Preview
 
 ```bash
 npm install
 npm run dev
 ```
-
-Open the local address shown by Vite.
 
 ## Build
 
@@ -17,18 +20,8 @@ Open the local address shown by Vite.
 npm run build
 ```
 
-## Recovery evidence
+## Deployment
 
-The parent folder contains captured evidence:
+This repository is connected to Vercel. Pushes to GitHub trigger automatic Vercel deployments.
 
-- `analysis/01-online-recon.md` — target URL and recon notes
-- `analysis/02-section-map.md` — recovered section structure
-- `analysis/03-assets-inventory.md` — production asset inventory
-- `analysis/04-implementation-notes.md` — implementation summary
-- `evidence/screenshots/` — online and local comparison screenshots
-- `evidence/source/index.html` — deployed HTML snapshot
-- `evidence/nuxt/` — downloaded Nuxt production assets
-
-## Notes
-
-The live homepage did not expose a canvas/WebGL surface during inspection. The recovered version recreates the visual expression with React, CSS, video assets, and production media.
+Public personal information is intentionally limited; sensitive resume fields are not included in the website source.
